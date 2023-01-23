@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+@media only screen and (max-device-width: 2000px) {
+    .containerPrincipal { flex-direction: row; }  
+    h1 { font-size: 60px;}
+    #bloco-mensagem {font-size: 30px; width: 500px;}
+}
+
+@media only screen and (max-device-width: 900px) {
+    .containerPrincipal { flex-direction: column; }
+    h1 { font-size: 30px;}
+    #bloco-mensagem {font-size: 15px; width: 300px;} 
+    p {text-align: center;}
+}
+    
+
+@media only screen and (max-device-width: 700px) {
+    .containerPrincipal { flex-direction: column; } 
+    h1 { font-size: 30px;}
+    #bloco-mensagem {font-size: 15px; width: 300px;}
+    p {text-align: center;}
+}
+
+body {
+    background: url(background.gif);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+}
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    color: #6B8E23;
+    margin: 0;
+}
+
+p {
+    font-family: 'Sarala', sans-serif;
+    color: #6B8E23;
+}
+
+.containerPrincipal{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#bloco-mensagem{
+    display: flex;
+    background-color: #f3baeb;
+    font-style:italic;
+    color:aliceblue;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+     
+}
